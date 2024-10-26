@@ -18,4 +18,7 @@ Contract creation tx is [here](https://sepolia.etherscan.io/tx/0x2774f4dd6e6ec3c
 
 
 
+We deployed an identical helloWorld contract but changed the string variable from 'calldata' to 'memory', and removed the 'onlyOwner' so that we could interface the setString function. 
 
+1) Adjusted new contract: (https://sepolia.etherscan.io/address/0x36B1b06Cdb39cb1f805A76B76Bd97D5bb5A887DD)
+3) Set string Transaction by interface method: (https://sepolia.etherscan.io/tx/0x1787c0c90ef320d3ae46ea4792db48205109aabad41d589cec9ad50a92f59730)
